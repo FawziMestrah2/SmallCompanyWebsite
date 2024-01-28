@@ -43,11 +43,12 @@ const Navbar = () => {
         </NavLink>
       </div>
       <div className={`links ${isOpen ? 'active' : ''}`}>
-        <NavLink className='navlink' to='/'>
-          Home
+        <NavLink className='navlink' to='/' >
+          {/* Home */}
         </NavLink>
-        <Link to='services' smooth={true} duration={500} offset={-30}>
-          Services
+        <Link to='services' smooth={true} duration={500} offset={-700}>
+          {/* Services */}
+          Home
         </Link>
         <Link to='aboutUs' smooth={true} duration={500}>
           About Us
