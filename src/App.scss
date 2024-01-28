@@ -1,0 +1,12 @@
+*{
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%; /* Make the container take the full width of the browser */
+  max-width: 100%; /* Ensure the container does not exceed the browser width */
+  margin: 0 auto; /* Center the container horizontally */
+  margin: 0; /* Remove default margin from the body */
+  padding: 0; /* Remove default padding from the body */
+  overflow-x: hidden; /* Use the overflow-x property to hide the horizontal scrollbar. */
+}

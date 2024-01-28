@@ -1,0 +1,132 @@
+.services-section {
+    margin-top: 100px;
+    width: 100%;
+
+    .service-subhead {
+        text-align: center;
+        color: #7b68ee;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 0.5px;
+        text-transform: uppercase;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .service-head {
+        text-align: center;
+        color: #404040;
+        font-size: 40px;
+        font-weight: 800;
+        font-family: cursive;
+        margin-bottom: 20px;
+    }
+  
+    .services-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      padding: 50px;
+      gap: 50px;
+  
+      .service {
+        width: 30%;
+        max-height: 500px;
+        min-width: 400px;
+        overflow: hidden;
+        margin: 10px;
+        background-color: #fff;
+        border: 1px solid rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 20px;
+        box-shadow: 15px 0 15px -10px rgba(0, 0, 0, 0.1), -15px 0 15px -10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+  
+        .service-icon {
+          font-size: 24px;
+          margin-bottom: 20px;
+
+          & img{
+            width: 50px;
+            transition: transform 0.3s ease;
+          }
+        }
+  
+        .service-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+            font-family: cursive;
+        }
+  
+        .service-description {
+          font-size: 14px;
+          margin-bottom: 20px;
+          color: #404040;
+        }
+        
+        .read-more-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            .arrow{
+                color: #7b68ee;
+                font-size: 15px;
+                transition: transform 0.3s ease;
+            }
+
+            .read-bttn {
+                font-size: 15px;
+                color: #7b68ee;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s ease;
+                border: none;
+                background-color: white;    
+                cursor: pointer;   
+            }
+
+            &:hover {
+                .arrow{
+                    transform: translateX(5px);
+                    transition: transform 0.3s ease;
+                }
+            }
+        }
+
+        &:hover{
+            transform: translateY(-10px);
+            transition: transform 0.3s ease;
+
+            .service-icon {
+                & img{
+                    transform: scaleX(-1);
+                    transition: transform 0.3s ease;
+                }
+            }
+        }
+      }
+
+      @media (max-width: 1625px) {
+        .service {         
+          width: 40%;
+        }
+      }
+  
+      @media (max-width: 1005px) {
+        .service {         
+          width: 100%;
+        }
+      }
+
+      @media (max-width: 575px) {
+        .service {         
+          min-width: 100%;
+          max-width: 100%;
+        }
+      }
+    }
+  }
+  

@@ -1,0 +1,20 @@
+.footer {
+    margin-top: 100px;
+    height: 20vw;
+    background-color: #7b68ee;
+
+    .footer-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+
+        img {
+            height: 150px;
+        }
+
+        h3 {
+            color: #fff;
+        }
+    }
+}
