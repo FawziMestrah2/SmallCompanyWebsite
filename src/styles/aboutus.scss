@@ -39,8 +39,16 @@
                 color: #404040;
                 font-family: 'Times New Roman', Times, serif;
                 font-style: italic;
+                text-align: justify;
+                // direction: rtl; /* Add this line for right-to-left */
             }
-
+            .rtl {
+                direction: rtl;
+              }
+              
+              .ltr {
+                direction: ltr;
+              }
             .aboutus-reasons {
                 margin-top: 20px;
                 display: flex;

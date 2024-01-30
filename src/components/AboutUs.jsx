@@ -4,25 +4,27 @@ import 'aos/dist/aos.css';
 
 import '../styles/aboutus.scss';
 import AboutUs from '../assets/aboutus.jpg';
-
+import data from '../Resources/ar.json';
 const AboutUsSection = () => {
   AOS.init();
-
+  const isRTL = true;
   return (
     <div className='aboutus-section'>
       <div className='aboutus-container'>
         <img src={AboutUs} className='aboutus-img' alt="" data-aos='fade-right' data-aos-delay='200' data-aos-once="true" />
         <div className='aboutus-sec'>
           <div className='aboutus-subhead' data-aos='fade-left' data-aos-delay='200' data-aos-once="true">
-            Why Choose Us?
+            {/* Why Choose Us? */}
+            {data["about_us"]["question"]}
           </div>
           <div className='aboutus-head' data-aos='fade-left' data-aos-delay='300' data-aos-once="true">
-            Sustainable Solutions for a Better Tomorrow
+            {/* Sustainable Solutions for a Better Tomorrow */}
+            {data["about_us"]["title"]}
           </div>
-          <div className='aboutus-desc' data-aos='fade-left' data-aos-delay='400' data-aos-once="true">
-            Here, our commitment lies in providing sustainable solutions through the production and sale of eco-friendly cardboard and plastic products. We are dedicated to making a positive impact on the environment by offering reliable and environmentally conscious choices for your packaging needs.
+          <div className={`aboutus-desc ${isRTL ? 'rtl' : 'ltr'}`} data-aos='fade-left' data-aos-delay='400' data-aos-once="true">
+          {data["about_us"]["text"]}
           </div>
-          <div className='aboutus-reasons' data-aos='fade-left' data-aos-delay='500' data-aos-once="true">
+          {/* <div className='aboutus-reasons' data-aos='fade-left' data-aos-delay='500' data-aos-once="true">
             <div className="about">
               <div>Environmentally Friendly Materials</div>
               <div>75%</div>
@@ -51,7 +53,7 @@ const AboutUsSection = () => {
             <div className="about-bar">
               <div className="about-progress4"></div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

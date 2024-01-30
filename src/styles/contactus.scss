@@ -18,7 +18,14 @@
         font-family: cursive;
         margin-bottom: 20px;
     }
+    .social-media-icons {
+      display: flex;
+      flex-direction: column;
+  }
   
+  .icon-link {
+      margin-bottom: 10px; /* Adjust the margin as needed */
+  }
     form {
       display: flex;
       flex-direction: column;

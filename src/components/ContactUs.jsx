@@ -4,6 +4,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import '../styles/contactus.scss';
+import data from '../Resources/ar.json';
+
+import SocialMediaIcons from '../components/SocialMedia';//' components/SocialMedia';
 
 const ContactForm = () => {
   AOS.init();
@@ -26,7 +29,7 @@ const ContactForm = () => {
 
   return (
     <div className="contact" data-aos="zoom-out" data-aos-delay="500" data-aos-once="true">
-      <div className='contact-form'>
+      {/* <div className='contact-form'>
       <h2>Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <label htmlFor='name'>Name:</label>
@@ -61,7 +64,14 @@ const ContactForm = () => {
 
         <button type='submit'>Submit</button>
       </form>
-      </div>
+      </div> */}
+      <div  className="footer-container">
+            <h3>{data["social-media"]["hint"]}</h3>
+            {/* Your existing content */}
+            
+            {/* Include the SocialMediaIcons component */}
+            <SocialMediaIcons />
+        </div>
     </div>
   );
 };
