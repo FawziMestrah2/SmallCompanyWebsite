@@ -6,6 +6,9 @@ import '../styles/aboutus.scss';
 import AboutUs from '../assets/aboutus.jpg';
 import data from '../Resources/ar.json';
 const AboutUsSection = () => {
+  // const lines = data["about_us"]["text"];
+  // const linesArray = lines.split('\n');
+
   AOS.init();
   const isRTL = true;
   return (
@@ -22,7 +25,12 @@ const AboutUsSection = () => {
             {data["about_us"]["title"]}
           </div>
           <div className={`aboutus-desc ${isRTL ? 'rtl' : 'ltr'}`} data-aos='fade-left' data-aos-delay='400' data-aos-once="true">
-          {data["about_us"]["text"]}
+          {data["about_us"]["text_commas"]}
+      
+          {/* {linesArray.map((line, index) => (
+            // Use a key to avoid React warning about missing keys
+            <p key={index}>{line}</p>
+          ))} */}
           </div>
           {/* <div className='aboutus-reasons' data-aos='fade-left' data-aos-delay='500' data-aos-once="true">
             <div className="about">
