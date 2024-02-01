@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.18145631.css",
-    "main.js": "/static/js/main.acf06e9b.js",
-    "static/js/787.fa54315d.chunk.js": "/static/js/787.fa54315d.chunk.js",
-    "static/media/slide3.jpg": "/static/media/slide3.3527840965fd62d6dd17.jpg",
-    "static/media/slide4.jpg": "/static/media/slide4.627381472bc506d3bd80.jpg",
-    "static/media/slide2.jpg": "/static/media/slide2.b6915547f86ff9dfd38a.jpg",
-    "static/media/slide1.jpg": "/static/media/slide1.a5dd2c8f9b21d15c3748.jpg",
-    "static/media/aboutus.jpg": "/static/media/aboutus.36e2f1b3dcf49370090c.jpg",
-    "static/media/logo.png": "/static/media/logo.99d00ccd58784d499eed.png",
-    "static/media/grocery-bag.png": "/static/media/grocery-bag.27dd49a12cded885ebed.png",
-    "static/media/electronic-container.png": "/static/media/electronic-container.f1e4dbafc23fdf0d182f.png",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.18145631.css.map": "/static/css/main.18145631.css.map",
-    "main.acf06e9b.js.map": "/static/js/main.acf06e9b.js.map",
-    "787.fa54315d.chunk.js.map": "/static/js/787.fa54315d.chunk.js.map"
+    "main.css": "/SmallCompanyWebsite/static/css/main.098fdd53.css",
+    "main.js": "/SmallCompanyWebsite/static/js/main.4c92fd41.js",
+    "static/js/787.fa54315d.chunk.js": "/SmallCompanyWebsite/static/js/787.fa54315d.chunk.js",
+    "static/media/slide3.jpg": "/SmallCompanyWebsite/static/media/slide3.3527840965fd62d6dd17.jpg",
+    "static/media/slide4.jpg": "/SmallCompanyWebsite/static/media/slide4.627381472bc506d3bd80.jpg",
+    "static/media/slide2.jpg": "/SmallCompanyWebsite/static/media/slide2.b6915547f86ff9dfd38a.jpg",
+    "static/media/slide1.jpg": "/SmallCompanyWebsite/static/media/slide1.a5dd2c8f9b21d15c3748.jpg",
+    "static/media/aboutus.jpg": "/SmallCompanyWebsite/static/media/aboutus.36e2f1b3dcf49370090c.jpg",
+    "static/media/logo.png": "/SmallCompanyWebsite/static/media/logo.99d00ccd58784d499eed.png",
+    "static/media/grocery-bag.png": "/SmallCompanyWebsite/static/media/grocery-bag.27dd49a12cded885ebed.png",
+    "static/media/electronic-container.png": "/SmallCompanyWebsite/static/media/electronic-container.f1e4dbafc23fdf0d182f.png",
+    "static/media/slick.svg": "/SmallCompanyWebsite/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SmallCompanyWebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SmallCompanyWebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/SmallCompanyWebsite/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/SmallCompanyWebsite/index.html",
+    "main.098fdd53.css.map": "/SmallCompanyWebsite/static/css/main.098fdd53.css.map",
+    "main.4c92fd41.js.map": "/SmallCompanyWebsite/static/js/main.4c92fd41.js.map",
+    "787.fa54315d.chunk.js.map": "/SmallCompanyWebsite/static/js/787.fa54315d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18145631.css",
-    "static/js/main.acf06e9b.js"
+    "static/css/main.098fdd53.css",
+    "static/js/main.4c92fd41.js"
   ]
 }
