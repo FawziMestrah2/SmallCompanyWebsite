@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/FawziMestrah2/SmallCompanyWebsite/static/css/main.4c0e83e7.css",
-    "main.js": "/FawziMestrah2/SmallCompanyWebsite/static/js/main.21506c77.js",
-    "static/js/787.fa54315d.chunk.js": "/FawziMestrah2/SmallCompanyWebsite/static/js/787.fa54315d.chunk.js",
-    "static/media/slide2.jpg": "/FawziMestrah2/SmallCompanyWebsite/static/media/slide2.a3eea889ac1e91a61962.jpg",
-    "static/media/slide3.jpg": "/FawziMestrah2/SmallCompanyWebsite/static/media/slide3.7161bf0e7bbf92ffa8cf.jpg",
-    "static/media/logo.png": "/FawziMestrah2/SmallCompanyWebsite/static/media/logo.ae990565d73527575066.png",
-    "static/media/aboutus.jpg": "/FawziMestrah2/SmallCompanyWebsite/static/media/aboutus.36e2f1b3dcf49370090c.jpg",
-    "static/media/slide4.jpg": "/FawziMestrah2/SmallCompanyWebsite/static/media/slide4.8f20a3f04385416adade.jpg",
-    "static/media/slide1.jpg": "/FawziMestrah2/SmallCompanyWebsite/static/media/slide1.ddc149a2b7e80c95fa3c.jpg",
-    "static/media/grocery-bag.png": "/FawziMestrah2/SmallCompanyWebsite/static/media/grocery-bag.27dd49a12cded885ebed.png",
-    "static/media/electronic-container.png": "/FawziMestrah2/SmallCompanyWebsite/static/media/electronic-container.f1e4dbafc23fdf0d182f.png",
-    "static/media/slick.svg": "/FawziMestrah2/SmallCompanyWebsite/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/FawziMestrah2/SmallCompanyWebsite/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/FawziMestrah2/SmallCompanyWebsite/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/FawziMestrah2/SmallCompanyWebsite/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/FawziMestrah2/SmallCompanyWebsite/index.html",
-    "main.4c0e83e7.css.map": "/FawziMestrah2/SmallCompanyWebsite/static/css/main.4c0e83e7.css.map",
-    "main.21506c77.js.map": "/FawziMestrah2/SmallCompanyWebsite/static/js/main.21506c77.js.map",
-    "787.fa54315d.chunk.js.map": "/FawziMestrah2/SmallCompanyWebsite/static/js/787.fa54315d.chunk.js.map"
+    "main.css": "/SmallCompanyWebsite.io/static/css/main.14efc31c.css",
+    "main.js": "/SmallCompanyWebsite.io/static/js/main.fd46a98a.js",
+    "static/js/787.fa54315d.chunk.js": "/SmallCompanyWebsite.io/static/js/787.fa54315d.chunk.js",
+    "static/media/slide3.jpg": "/SmallCompanyWebsite.io/static/media/slide3.3527840965fd62d6dd17.jpg",
+    "static/media/slide4.jpg": "/SmallCompanyWebsite.io/static/media/slide4.627381472bc506d3bd80.jpg",
+    "static/media/slide2.jpg": "/SmallCompanyWebsite.io/static/media/slide2.b6915547f86ff9dfd38a.jpg",
+    "static/media/slide1.jpg": "/SmallCompanyWebsite.io/static/media/slide1.a5dd2c8f9b21d15c3748.jpg",
+    "static/media/aboutus.jpg": "/SmallCompanyWebsite.io/static/media/aboutus.36e2f1b3dcf49370090c.jpg",
+    "static/media/logo.png": "/SmallCompanyWebsite.io/static/media/logo.99d00ccd58784d499eed.png",
+    "static/media/grocery-bag.png": "/SmallCompanyWebsite.io/static/media/grocery-bag.27dd49a12cded885ebed.png",
+    "static/media/electronic-container.png": "/SmallCompanyWebsite.io/static/media/electronic-container.f1e4dbafc23fdf0d182f.png",
+    "static/media/slick.svg": "/SmallCompanyWebsite.io/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/SmallCompanyWebsite.io/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/SmallCompanyWebsite.io/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/SmallCompanyWebsite.io/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/SmallCompanyWebsite.io/index.html",
+    "main.14efc31c.css.map": "/SmallCompanyWebsite.io/static/css/main.14efc31c.css.map",
+    "main.fd46a98a.js.map": "/SmallCompanyWebsite.io/static/js/main.fd46a98a.js.map",
+    "787.fa54315d.chunk.js.map": "/SmallCompanyWebsite.io/static/js/787.fa54315d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c0e83e7.css",
-    "static/js/main.21506c77.js"
+    "static/css/main.14efc31c.css",
+    "static/js/main.fd46a98a.js"
   ]
 }
